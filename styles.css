@@ -391,6 +391,13 @@
       grid-row-end: 6;
     }
 
+.riw-grid-7 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 7;
+  grid-row-end: 7;
+}
+
 .riw-grid-1 h2 {
   margin-top: 1rem;
 }
@@ -561,9 +568,16 @@
 
   .riw-grid-6 {
     grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-end: 2;
     grid-row-start: 4;
     grid-row-end: 5;
+  }
+
+  .riw-grid-7 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;  
   }
   .events {
     left: 18rem;
@@ -586,12 +600,12 @@
 }
 
 
-@media only screen and (min-width: 1410px) {
+@media only screen and (min-width: 1441px) {
   .events {
-    left: 40em;
+    left: 35em;
   }
 
   .more-resources {
-    left: 40rem;
+    left: 35rem;
   }
 }
