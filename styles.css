@@ -322,8 +322,9 @@
     .riw-btn {
       background-color: #3F2A56;
       color: #fefefe;
-      width: 20em;
-      height: auto;
+      min-width: 20em;
+      /* max-width: 25em; */
+      min-height: auto;
       margin: 2em;
     }
 
@@ -1141,7 +1142,8 @@
       .riw-btn {
         background-color: #3F2A56;
         color: #fefefe;
-        width: 20em;
+        min-width: 20em;
+        /* max-width: 25em; */
         height: auto;
         margin: 2em;
       }
