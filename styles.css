@@ -304,7 +304,7 @@
 
     /* our products section*/
     .product-list {
-      background-color: #CBCBCB;
+      background-color: #e9ecef;
       display: -ms-grid;
       display: grid;
       -ms-grid-columns: 0.5fr 0.25fr;
@@ -322,10 +322,14 @@
     .riw-btn {
       background-color: #3F2A56;
       color: #fefefe;
-      min-width: 20em;
+      width: 25em;
       /* max-width: 25em; */
       min-height: auto;
       margin: 2em;
+    }
+
+    .dropdown-menu a.dropdown-item {
+      white-space: normal;
     }
 
     .riw-btn:hover {
@@ -640,7 +644,8 @@
       }
 
       .riw-grid-2 {
-        width: 105%;
+        padding: 0.25rem;
+        width: 100%;
         -ms-grid-column: 1;
         -ms-grid-column-span: 2;
         grid-column: 2/2;
@@ -650,7 +655,8 @@
       }
 
       .riw-grid-3 {
-        width: 105%;
+        padding: 0.25rem;
+        width: 100%;
         -ms-grid-column: 3;
         -ms-grid-column-span: 2;
         grid-column: 3/3;
@@ -660,7 +666,8 @@
       }
 
       .riw-grid-4 {
-        width: 105%;
+        padding: 0.25rem;
+        width: 100%;
         -ms-grid-column: 1;
         -ms-grid-column-span: 2;
         grid-column: 2/2;
@@ -670,7 +677,8 @@
       }
 
       .riw-grid-5 {
-        width: 105%;
+        padding: 0.25rem;
+        width: 100%;
         -ms-grid-column: 3;
         -ms-grid-column-span: 2;
         grid-column: 3/3;
@@ -680,7 +688,8 @@
       }
 
       .riw-grid-6 {
-        width: 105%;
+        padding: 0.25rem;
+        width: 100%;
         -ms-grid-column: 1;
         -ms-grid-column-span: 2;
         grid-column: 2/2;
@@ -690,7 +699,8 @@
       }
 
       .riw-grid-7 {
-        width: 105%;
+        padding: 0.25rem;
+        width: 100%;
         -ms-grid-column: 3;
         -ms-grid-column-span: 2;
         grid-column: 3/3;
@@ -699,28 +709,9 @@
         -ms-grid-row-span: 1;
       }
 
-      .riw-grid-2 .dropdown-toggle {
-        padding: 0.75rem 0;
-      }
 
-      .riw-grid-3 .dropdown-toggle {
-        padding: 0.75rem 0;
-      }
-
-      .riw-grid-4 .dropdown-toggle {
-        padding: 0.75rem 0;
-      }
-
-      .riw-grid-5 .dropdown-toggle {
-        padding: 0.75rem 0;
-      }
-
-      .riw-grid-6 .dropdown-toggle {
-        padding: 0.75rem 0;
-      }
-
-      .riw-grid-7 .dropdown-toggle {
-        padding: 0.75rem 0;
+      .dropdown-toggle {
+        padding: 0.75rem 26em;
       }
 
       .placemat-container {
@@ -1142,7 +1133,7 @@
       .riw-btn {
         background-color: #3F2A56;
         color: #fefefe;
-        min-width: 20em;
+        width: 25em;
         /* max-width: 25em; */
         height: auto;
         margin: 2em;
@@ -1459,7 +1450,8 @@
         }
 
         .riw-grid-2 {
-          width: 105%;
+          padding: 0.25rem;
+          width: 100%;
           -ms-grid-column: 1;
           -ms-grid-column-span: 2;
           grid-column: 2/2;
@@ -1469,7 +1461,8 @@
         }
 
         .riw-grid-3 {
-          width: 105%;
+          padding: 0.25rem;
+          width: 100%;
           -ms-grid-column: 3;
           -ms-grid-column-span: 2;
           grid-column: 3/3;
@@ -1479,7 +1472,8 @@
         }
 
         .riw-grid-4 {
-          width: 105%;
+          padding: 0.25rem;
+          width: 100%;
           -ms-grid-column: 1;
           -ms-grid-column-span: 2;
           grid-column: 2/2;
@@ -1489,7 +1483,8 @@
         }
 
         .riw-grid-5 {
-          width: 105%;
+          padding: 0.25rem;
+          width: 100%;
           -ms-grid-column: 3;
           -ms-grid-column-span: 2;
           grid-column: 3/3;
@@ -1499,7 +1494,8 @@
         }
 
         .riw-grid-6 {
-          width: 105%;
+          padding: 0.25rem;
+          width: 100%;
           -ms-grid-column: 1;
           -ms-grid-column-span: 2;
           grid-column: 2/2;
@@ -1509,7 +1505,8 @@
         }
 
         .riw-grid-7 {
-          width: 105%;
+          padding: 0.25rem;
+          width: 100%;
           -ms-grid-column: 3;
           -ms-grid-column-span: 2;
           grid-column: 3/3;
@@ -1635,6 +1632,10 @@
 
 
       @media only screen and (min-width: 992px) {
+        .dropdown-menu {
+          width: 25rem;
+        }
+
         .events {
           transform: translate(-23rem, 100px);
         }
