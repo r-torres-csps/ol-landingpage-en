@@ -307,26 +307,17 @@
     /* our products section*/
     .product-list {
       background-color: #CBCBCB;
-      display: -ms-grid;
-      display: grid;
-      -ms-grid-columns: 0.5fr 0.25fr;
-      grid-template-columns: 0.5fr 0.25fr 0.25fr 0.5fr;
-      -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-      column-gap: 0.25rem;
-      row-gap: 0;
-      justify-items: center;
-      align-items: center;
-      justify-content: center;
       padding: 0.5rem;
+
     }
 
     .riw-btn {
       background-color: #3F2A56;
       color: #fefefe;
-      width: 20em;
+      width: 22em;
       height: auto;
-      margin: 2em;
+      margin: 1rem 1rem;
+      left: 5em;
     }
 
     .riw-btn:hover {
@@ -614,21 +605,6 @@
 
 
     @media only screen and (min-width: 768px) {
-      .product-list {
-        display: -ms-grid;
-        display: grid;
-        -ms-grid-columns: 0.5fr 0.25fr 0.25fr 0.5fr;
-        grid-template-columns: 0.5fr 0.25fr 0.25fr 0.5fr;
-        -ms-grid-rows: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        column-gap: 1rem;
-        row-gap: 0.25rem;
-        justify-items: center;
-        align-items: center;
-        justify-content: center;
-        padding: 0.5rem;
-      }
-
       .riw-grid-1 {
         -ms-grid-column: 2;
         -ms-grid-column-span: 4;
@@ -1126,21 +1102,6 @@
       }
 
       /* our products section*/
-      .product-list {
-        background-color: #CBCBCB;
-        display: -ms-grid;
-        display: grid;
-        -ms-grid-columns: 0.5fr 0.25fr;
-        grid-template-columns: 0.5fr 0.25fr 0.25fr 0.5fr;
-        -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        column-gap: 0.25rem;
-        row-gap: 0;
-        justify-items: center;
-        align-items: center;
-        justify-content: center;
-        padding: 0.5rem;
-      }
 
       .riw-btn {
         background-color: #3F2A56;
@@ -1434,20 +1395,6 @@
 
 
       @media only screen and (min-width: 768px) {
-        .product-list {
-          display: -ms-grid;
-          display: grid;
-          -ms-grid-columns: 0.5fr 0.25fr 0.25fr 0.5fr;
-          grid-template-columns: 0.5fr 0.25fr 0.25fr 0.5fr;
-          -ms-grid-rows: 1fr 1fr 1fr 1fr;
-          grid-template-rows: 1fr 1fr 1fr 1fr;
-          column-gap: 1rem;
-          row-gap: 0.25rem;
-          justify-items: center;
-          align-items: center;
-          justify-content: center;
-          padding: 0.5rem;
-        }
 
         .riw-grid-1 {
           -ms-grid-column: 2;
