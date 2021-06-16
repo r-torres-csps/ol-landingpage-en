@@ -227,8 +227,6 @@
 
     /* RIW styles */
     .riw-jumbotron {
-      background-color: #3F2A55;
-      color: #fefefe;
       padding: 1rem;
       margin: 0;
     }
@@ -306,7 +304,7 @@
 
     /* our products section*/
     .product-list {
-      background-color: #CBCBCB;
+      background-color: #e9ecef;
       padding: 0.5rem;
 
     }
@@ -318,6 +316,10 @@
       height: auto;
       margin: 1rem 1rem;
       left: 5em;
+    }
+
+    .dropdown-menu a.dropdown-item {
+      white-space: normal;
     }
 
     .riw-btn:hover {
@@ -334,6 +336,96 @@
       background-color: #3F2A56;
       color: #fefefe;
     }
+
+    /* placemat */
+    .placemat-container {
+      min-width: 22em;
+      min-height: 19rem;
+      position: relative;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, 20%);
+      margin-bottom: 1rem;
+      border: 1px solid #000;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+
+    .placemat-container:hover {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    }
+
+    .placemat-container img {
+      position: absolute;
+      top: 0.15rem;
+      max-width: 100%;
+      min-height: 10rem;
+      object-fit: cover;
+    }
+
+
+    .placemat-container h3 {
+      position: absolute;
+      padding-left: 0.75rem;
+      top: 10rem;
+    }
+
+    .placemat-container p {
+      position: absolute;
+      padding-left: 0.75rem;
+      top: 12.25rem;
+    }
+
+    .placemat-container a.event-link {
+      position: absolute;
+      padding-left: 0.75rem;
+      top: 15rem;
+    }
+
+    /* Tapestry*/
+    .tapestry-container {
+      width: 22em;
+      height: 19rem;
+      position: relative;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, 20%);
+      margin-bottom: 1rem;
+      border: 1px solid #000;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+
+    .tapestry-container:hover {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    }
+
+    .tapestry-container img {
+      position: absolute;
+      top: 0.15rem;
+      max-width: 100%;
+      min-height: 10rem;
+      object-fit: cover;
+    }
+
+    h3.tapestry-paragraph {
+      position: absolute;
+      padding-left: 0.75rem;
+      top: 10rem;
+    }
+
+    p.tapestry-paragraph {
+      position: absolute;
+      padding-left: 0.75rem;
+      top: 12.25rem;
+    }
+
+    .tapestry-paragraph .event-link {
+      position: absolute;
+      padding-left: 0.75rem;
+      top: 15rem;
+    }
+
 
     .proper-hr {
       position: relative;
@@ -563,7 +655,6 @@
 
 
     @media only screen and (min-width: 768px) {
-
 
       .placemat-container {
         width: 50em;
@@ -908,8 +999,6 @@
 
       /* RIW styles */
       .riw-jumbotron {
-        background-color: #3F2A55;
-        color: #fefefe;
         padding: 1rem;
         margin: 0;
       }
@@ -986,11 +1075,11 @@
       }
 
       /* our products section*/
-
       .riw-btn {
         background-color: #3F2A56;
         color: #fefefe;
-        width: 20em;
+        width: 25em;
+        /* max-width: 25em; */
         height: auto;
         margin: 2em;
       }
@@ -1010,7 +1099,95 @@
         color: #fefefe;
       }
 
-      proper-hr {
+      /* placemat */
+      .placemat-container {
+        min-width: 22em;
+        min-height: 19rem;
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, 20%);
+        margin-bottom: 1rem;
+        border: 1px solid #000;
+        border-radius: 5px;
+        transition: 0.3s;
+      }
+
+      .placemat-container:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+      }
+
+      .placemat-container img {
+        position: absolute;
+        top: 0.15rem;
+        width: 100%;
+        min-height: 10rem;
+        object-fit: cover;
+      }
+
+
+      .placemat-container h3 {
+        position: absolute;
+        padding-left: 0.75rem;
+        /* top: 10rem; */
+      }
+
+      .placemat-container p {
+        position: absolute;
+        padding-left: 0.75rem;
+        /* top: 12.25rem; */
+      }
+
+      .placemat-container a.event-link {
+        position: absolute;
+        padding-left: 0.75rem;
+        /* top: 15rem; */
+      }
+
+      /* Tapestry*/
+      .tapestry-container {
+        min-width: 22em;
+        min-height: 19rem;
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, 20%);
+        margin-bottom: 1rem;
+        border: 1px solid #000;
+        border-radius: 5px;
+        transition: 0.3s;
+      }
+
+      .tapestry-container:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+      }
+
+      .tapestry-container img {
+        position: absolute;
+        width: 100%;
+        height: 10rem;
+        object-fit: cover;
+      }
+
+      h3.tapestry-paragraph {
+        position: absolute;
+        padding-left: 0.75rem;
+        /* top: 10rem; */
+      }
+
+      p.tapestry-paragraph {
+        position: absolute;
+        padding-left: 0.75rem;
+        /* top: 12.25rem; */
+      }
+
+      .tapestry-paragraph .event-link {
+        position: absolute;
+        padding-left: 0.75rem;
+        /* top: 15rem; */
+      }
+
+      .proper-hr {
         position: relative;
         top: 6rem;
       }
