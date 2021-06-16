@@ -227,8 +227,6 @@
 
     /* RIW styles */
     .riw-jumbotron {
-      background-color: #3F2A55;
-      color: #fefefe;
       padding: 1rem;
       margin: 0;
     }
@@ -1048,8 +1046,6 @@
 
       /* RIW styles */
       .riw-jumbotron {
-        background-color: #3F2A55;
-        color: #fefefe;
         padding: 1rem;
         margin: 0;
       }
@@ -1127,7 +1123,7 @@
 
       /* our products section*/
       .product-list {
-        background-color: #CBCBCB;
+        background-color: #e9ecef;
         display: -ms-grid;
         display: grid;
         -ms-grid-columns: 0.5fr 0.25fr;
